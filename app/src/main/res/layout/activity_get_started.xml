@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.get_started.GetStartedActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_get_started_main" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relGetStarted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:gravity="center"
+        android:text="@string/peer_to_peer_barbering"
+        android:textColor="@color/app_black"
+        android:textSize="@dimen/_14sdp" />
+
+    <RelativeLayout
+        android:id="@+id/relGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomRel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:background="@drawable/drawable_black_rounded_corner_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvGetStarted"
+                style="@style/MainBlackRoundedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_12sdp"
+                android:text="@string/get_started"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_arrow_next" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomRel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:padding="@dimen/_2sdp">
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/HeadingType2BlackFont"
+            android:layout_centerHorizontal="true"
+            android:text="@string/by_clicking_start_you_agree_to_our" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/tvTerms"
+                style="@style/HeadingType2BlackFont"
+                android:text="@string/terms"
+                android:textAllCaps="true" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvTerms"
+                android:layout_alignEnd="@+id/tvTerms"
+                android:layout_marginStart="4dp"
+                android:background="@color/app_black" />
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/HeadingType2BlackFont"
+                android:layout_marginStart="4dp"
+                android:layout_toEndOf="@+id/tvTerms"
+                android:text="@string/and" />
+
+            <TextView
+                android:id="@+id/tvPrivacy"
+                style="@style/HeadingType2BlackFont"
+                android:layout_marginStart="4dp"
+                android:layout_toEndOf="@+id/text2"
+                android:text="@string/privacy"
+                android:textAllCaps="true" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvPrivacy"
+                android:layout_alignStart="@+id/tvPrivacy"
+                android:layout_alignEnd="@+id/tvPrivacy"
+                android:background="@color/app_black" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

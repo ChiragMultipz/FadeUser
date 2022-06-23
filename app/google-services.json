@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "93461071428",
+    "project_id": "fade-16089",
+    "storage_bucket": "fade-16089.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93461071428:android:152829dfb290f043309e11",
+        "android_client_info": {
+          "package_name": "com.android.fade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93461071428-59p7746t5k4i120c5l9o888311bpq20s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fade",
+            "certificate_hash": "323e2738e3dc03dd6b1eaeb4a590ebcfe2400b1a"
+          }
+        },
+        {
+          "client_id": "93461071428-ij006mrmt6pibbb8h7md6kmggq58uqdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fade",
+            "certificate_hash": "25e2792ddb926115077c6f7067d51a7a4631dfb8"
+          }
+        },
+        {
+          "client_id": "93461071428-qp109iqij6on9v9m28qi5866hsois25g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fade",
+            "certificate_hash": "ccfb78433ac2ce481ae43df7f3bd8992ee5bf4c0"
+          }
+        },
+        {
+          "client_id": "93461071428-qumpb9ok93rvjedcfc59qhg5etcpn21u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fade",
+            "certificate_hash": "3d3ed318e526b2dc62c105f8b7b35dc84fb7a9cd"
+          }
+        },
+        {
+          "client_id": "93461071428-gkuo8gq3ap1sts70o26rv45tpsbvmnd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Wxy9cDajLoN_VKJRvfm3z7bu6d_0AFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93461071428-gkuo8gq3ap1sts70o26rv45tpsbvmnd7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "93461071428-a73bsv75sfqqkf4uplh4oembtgl7nf9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "devang.Fade.driver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93461071428:android:10313cdc19ed0d01309e11",
+        "android_client_info": {
+          "package_name": "com.android.fadedriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93461071428-5er522qhb4t0stjc6v8fplslvfbl457g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fadedriver",
+            "certificate_hash": "25e2792ddb926115077c6f7067d51a7a4631dfb8"
+          }
+        },
+        {
+          "client_id": "93461071428-aea1f7s27ras477an8eqlsvtlc9743is.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fadedriver",
+            "certificate_hash": "439c410c33e3894387fa5b32a00e6a59c5470ae1"
+          }
+        },
+        {
+          "client_id": "93461071428-j6q6q853v147v0kev3693rnbiels54gp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fadedriver",
+            "certificate_hash": "323e2738e3dc03dd6b1eaeb4a590ebcfe2400b1a"
+          }
+        },
+        {
+          "client_id": "93461071428-squbqamq8bflcf6tojvdseu0nrlfgq1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fadedriver",
+            "certificate_hash": "3d3ed318e526b2dc62c105f8b7b35dc84fb7a9cd"
+          }
+        },
+        {
+          "client_id": "93461071428-ts5c2ecdviplvsjq44eceh7edikatbpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fadedriver",
+            "certificate_hash": "ccfb78433ac2ce481ae43df7f3bd8992ee5bf4c0"
+          }
+        },
+        {
+          "client_id": "93461071428-gkuo8gq3ap1sts70o26rv45tpsbvmnd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Wxy9cDajLoN_VKJRvfm3z7bu6d_0AFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93461071428-gkuo8gq3ap1sts70o26rv45tpsbvmnd7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "93461071428-a73bsv75sfqqkf4uplh4oembtgl7nf9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "devang.Fade.driver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
