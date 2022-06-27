@@ -129,7 +129,36 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="@dimen/_28sdp"
-            android:src="@drawable/ic_airdrop" />
+            android:src="@drawable/ic_airdrop"
+            android:visibility="gone" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="img_animation.json"
+            android:layout_marginBottom="@dimen/_4sdp"
+            app:lottie_loop="true"
+            app:lottie_speed="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lottie_main"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:background="@drawable/drawable_airdrop_text_bg"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:padding="@dimen/_8sdp"
+            android:text="We appreciate your patience as we finish\ndeveloping the app. To show our gratitude,\nyou will get air dropped CLIP tokens. "
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+
         <TextView
             android:id="@+id/tvBarbers"
             android:layout_width="wrap_content"
@@ -137,9 +166,9 @@
             android:layout_marginStart="@dimen/_12sdp"
             android:text="@string/barbers_near_you"
             android:textColor="@color/app_black"
-            android:visibility="gone"
             android:textSize="@dimen/_14sdp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/tvFilter"
@@ -147,10 +176,10 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/_3sdp"
             android:layout_marginEnd="@dimen/_8sdp"
-            android:visibility="gone"
             android:text="@string/filter"
             android:textColor="@color/app_black"
             android:textSize="@dimen/_12sdp"
+            android:visibility="gone"
             app:drawableEndCompat="@drawable/ic_arrow_down_24" />
 
     </RelativeLayout>

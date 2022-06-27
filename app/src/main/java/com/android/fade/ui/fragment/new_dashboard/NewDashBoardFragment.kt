@@ -54,10 +54,12 @@ class NewDashBoardFragment(otherAddressLatLon: String) :
     private lateinit var locationRequest: LocationRequest
     private lateinit var locationCallback: LocationCallback
     private lateinit var managePermissions: ManagePermissions
+
     val list = listOf(
         Manifest.permission.ACCESS_FINE_LOCATION,
         Manifest.permission.ACCESS_COARSE_LOCATION
     )
+
     private val permissionsRequestCode = 111
 
     var filterList = listOf(
