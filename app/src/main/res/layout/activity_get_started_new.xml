@@ -31,7 +31,7 @@
             android:gravity="center"
             android:letterSpacing="0.05"
             android:lineSpacingExtra="4dp"
-            android:text="The app is currently under\ndevelopment.\n\nComplete your registration to be\neligible for our CLIP token airdrop."
+            android:text="The app is currently under development.\n\nComplete your registration to be eligible for our CLIP token airdrop."
             android:textColor="@color/app_black"
             android:textSize="@dimen/_16sdp" />
 
