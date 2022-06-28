@@ -61,8 +61,8 @@ class EmailLoginActivity : AppCompatActivity(), View.OnClickListener {
                             intent.putExtra(Constants.IS_EMAIL_LOGIN, true)
                             startActivity(intent)
 
-//                            ToastUtil.showToast("Please check your mail for OTP")
-                            ToastUtil.showToast("Your OTP is ${it.value.result.otp}")
+                            ToastUtil.showToast("Please check your email for OTP")
+//                            ToastUtil.showToast("Your OTP is ${it.value.result.otp}")
                         }
                     } else {
                         ToastUtil.showToast(it.value.message!!)
