@@ -36,7 +36,7 @@ Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
 
 
 Current CompileTask:
-C2:  38467 16613 %     4       com.android.tools.r8.ir.regalloc.a::a @ 531 (952 bytes)
+C2:  38467 16613 %     4       com.eclipsa.tools.r8.ir.regalloc.a::a @ 531 (952 bytes)
 
 
 ---------------  P R O C E S S  ---------------
@@ -266,15 +266,15 @@ CodeCache: size=245760Kb used=51148Kb max_used=51148Kb free=194611Kb
  compilation: enabled
 
 Compilation events (10 events):
-Event: 38.457 Thread 0x0000026ab84e3000 17306       2       com.android.tools.r8.graph.p::b (38 bytes)
+Event: 38.457 Thread 0x0000026ab84e3000 17306       2       com.eclipsa.tools.r8.graph.p::b (38 bytes)
 Event: 38.457 Thread 0x0000026ab84e3000 nmethod 17306 0x0000026aa60a9e50 code [0x0000026aa60a9fc0, 0x0000026aa60aa250]
-Event: 38.457 Thread 0x0000026ab84e3000 17308       2       com.android.tools.r8.graph.p::c (38 bytes)
+Event: 38.457 Thread 0x0000026ab84e3000 17308       2       com.eclipsa.tools.r8.graph.p::c (38 bytes)
 Event: 38.457 Thread 0x0000026ab84e3000 nmethod 17308 0x0000026aa60aa390 code [0x0000026aa60aa500, 0x0000026aa60aa790]
-Event: 38.457 Thread 0x0000026ab84e3000 17307       2       com.android.tools.r8.graph.F::<init> (87 bytes)
+Event: 38.457 Thread 0x0000026ab84e3000 17307       2       com.eclipsa.tools.r8.graph.F::<init> (87 bytes)
 Event: 38.457 Thread 0x0000026ab84e3000 nmethod 17307 0x0000026aa60aa8d0 code [0x0000026aa60aaa40, 0x0000026aa60aac90]
-Event: 38.458 Thread 0x0000026ab84e3000 17309       2       com.android.tools.r8.graph.p$$Lambda$1449/1501070093::a (37 bytes)
+Event: 38.458 Thread 0x0000026ab84e3000 17309       2       com.eclipsa.tools.r8.graph.p$$Lambda$1449/1501070093::a (37 bytes)
 Event: 38.458 Thread 0x0000026ab84e3000 nmethod 17309 0x0000026aa60aad90 code [0x0000026aa60aaf00, 0x0000026aa60ab130]
-Event: 38.458 Thread 0x0000026ab84e3000 17310       2       com.android.tools.r8.q.a.a.b.c0$a::a (151 bytes)
+Event: 38.458 Thread 0x0000026ab84e3000 17310       2       com.eclipsa.tools.r8.q.a.a.b.c0$a::a (151 bytes)
 Event: 38.459 Thread 0x0000026ab84e3000 nmethod 17310 0x0000026aa60ab210 code [0x0000026aa60ab400, 0x0000026aa60ab9c0]
 
 GC Heap History (10 events):
@@ -385,16 +385,16 @@ Heap after GC invocations=22 (full 5):
 }
 
 Deoptimization events (10 events):
-Event: 36.746 Thread 0x0000026abe247000 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x0000026aa55643f8 method=com.android.tools.r8.ir.regalloc.a.a(Lcom/android/tools/r8/s/b/q1;Ljava/util/Collection;)Z @ 1
-Event: 37.628 Thread 0x0000026abe24c800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000026aa554c0e4 method=com.android.tools.r8.ir.optimize.r.a(Lcom/android/tools/r8/s/b/X;Lcom/android/tools/r8/utils/n1;)V @ 434
-Event: 37.694 Thread 0x0000026abe24f800 Uncommon trap: reason=null_check action=make_not_entrant pc=0x0000026aa54518cc method=com.android.tools.r8.graph.i0.computeEquals(Ljava/lang/Object;)Z @ 1
-Event: 37.964 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.android.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
-Event: 38.042 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.android.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
-Event: 38.163 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.android.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
-Event: 38.180 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.android.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
+Event: 36.746 Thread 0x0000026abe247000 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x0000026aa55643f8 method=com.eclipsa.tools.r8.ir.regalloc.a.a(Lcom/android/tools/r8/s/b/q1;Ljava/util/Collection;)Z @ 1
+Event: 37.628 Thread 0x0000026abe24c800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000026aa554c0e4 method=com.eclipsa.tools.r8.ir.optimize.r.a(Lcom/android/tools/r8/s/b/X;Lcom/android/tools/r8/utils/n1;)V @ 434
+Event: 37.694 Thread 0x0000026abe24f800 Uncommon trap: reason=null_check action=make_not_entrant pc=0x0000026aa54518cc method=com.eclipsa.tools.r8.graph.i0.computeEquals(Ljava/lang/Object;)Z @ 1
+Event: 37.964 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.eclipsa.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
+Event: 38.042 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.eclipsa.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
+Event: 38.163 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.eclipsa.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
+Event: 38.180 Thread 0x0000026abe253000 Uncommon trap: reason=speculate_class_check action=maybe_recompile pc=0x0000026aa5aca8b8 method=com.eclipsa.tools.r8.ir.optimize.l.k(Lcom/android/tools/r8/s/b/X;)Z @ 237
 Event: 38.219 Thread 0x0000026abe253000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000026aa601faa8 method=java.util.PriorityQueue.remove(Ljava/lang/Object;)Z @ 8
 Event: 38.219 Thread 0x0000026abe248000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000026aa601fa6c method=java.util.PriorityQueue.remove(Ljava/lang/Object;)Z @ 8
-Event: 38.249 Thread 0x0000026abe244800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000026aa5e03d9c method=com.android.tools.r8.graph.I0$c.a()V @ 269
+Event: 38.249 Thread 0x0000026abe244800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000026aa5e03d9c method=com.eclipsa.tools.r8.graph.I0$c.a()V @ 269
 
 Classes redefined (0 events):
 No events
