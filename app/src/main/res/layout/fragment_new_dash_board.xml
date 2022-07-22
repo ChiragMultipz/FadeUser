@@ -137,9 +137,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_4sdp"
             app:lottie_autoPlay="true"
             app:lottie_fileName="img_animation.json"
-            android:layout_marginBottom="@dimen/_4sdp"
             app:lottie_loop="true"
             app:lottie_speed="1" />
 

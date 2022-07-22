@@ -13,7 +13,7 @@ object Constants {
     const val OrderCompleted = "COMPLETED"
     const val OrderCancelled = "CANCELLED"
     const val OrderPending = "PENDING"
-    const val IOS_APP_LINK: String = "https://play.google.com/store/apps/details?id=${BuildConfig.APPLICATION_ID}"
+    const val IOS_APP_LINK: String = "https://www.apple.com/in/app-store/"
     const val FILTER_RATING = "Rating"
     const val FILTER_PRICE = "Price"
     const val FILTER_DISTANCE = "Distance"
@@ -22,16 +22,15 @@ object Constants {
     const val BINANCE_API_KEY = "haqqdicqmudlwvbndmvdbtyjodfv01lmyq5w3epkgwoq9e7xupmrh1pixt6whkqo"
     const val PUBLISHABLE_URL = "pk_test_51It9EjSHK7KhWYBoxSQEsoOYBu5Kxd2mGMKiCl3CcxKEaLpPhCTvRKEbH1POhGSpg40nOZz7xl0EBgAbDqEcwnA000hdsxqQSu"
     const val SECRET_KEY = "sk_test_51J4jEXSHtFImCuwF2Kx04ifPmSSijhK2ASLiZVRvlszQ58rUv7t2WN5PAUS9kkqMLRpggOBaUwKjtKNnYrmWo4OY00mJ8jnQFO"
-    const val BASE_URL = "http://165.232.189.85/fade_barber_new_backend/public/api/mobile/"
+    const val BASE_URL = "http://18.130.93.203/fade_barber_new_backend/public/api/mobile/"
 //    const val BASE_URL = "http://18.130.93.203/fade_barber_new_backend/public/api/mobile/"
     const val BASE_URL_STRIPE = "https://api.stripe.com/v1/"
 
-    const val FOR_CHAT_HOST_NAME = "http://165.232.189.85"
+    const val FOR_CHAT_HOST_NAME = "http://18.130.93.203"
     const val PORT = "5000"
 
-    const val IP_ADDRESS = "18.130.93.203"
 //    const val STORAGE_URL = "http://18.130.93.203/fade_barber_new_backend/public"
-    const val STORAGE_URL = "http://165.232.189.85/fade_barber_new_backend/public"
+    const val STORAGE_URL = "http://18.130.93.203/fade_barber_new_backend/public"
 //    const val BASE_URL = "http://$IP_ADDRESS/api/mobile/"
     // user detail
     const val API_TOKEN = "api_token"

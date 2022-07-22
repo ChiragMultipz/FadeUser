@@ -28,8 +28,8 @@ android {
         applicationId "com.eclipsa.fade"
         minSdkVersion 21
         targetSdkVersion 32
-        versionCode 7
-        versionName "1.6"
+        versionCode 9
+        versionName "1.8"
 
         buildFeatures {
             dataBinding true
